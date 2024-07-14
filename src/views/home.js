@@ -18,7 +18,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Spotless Hungry Crocodile</title>
+        <title>Ayush Mishra</title>
       </Helmet>
       <Navbar></Navbar>
       <Hero></Hero>
