@@ -66,15 +66,15 @@ const Contact = (props) => {
 
 Contact.defaultProps = {
   content2: 'I typically respond to emails within 24 hours.',
-  email1: 'info@phpdrupaldev.com',
-  address1: '123 Main Street, City, Country',
+  email1: 'ayushmishra206@gmail.com',
+  address1: 'New Delhi, India',
   content3: 'For urgent matters, please give me a call.',
   content1:
     'Feel free to reach out to discuss your project or for any inquiries.',
   content4: "Let's work together to bring your ideas to life!",
   heading1: 'Contact Me',
   content5: 'Looking forward to hearing from you.',
-  phone1: '+1 (123) 456-7890',
+  phone1: '+91 9654782071',
 }
 
 Contact.propTypes = {

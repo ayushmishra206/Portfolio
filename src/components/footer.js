@@ -10,11 +10,7 @@ const Footer = (props) => {
       <div className="footer-max-width thq-section-max-width">
         <div className="footer-content">
           <div className="footer-newsletter">
-            <img
-              alt={props.logoAlt}
-              src={props.logoSrc}
-              className="footer-image1"
-            />
+            <h2 className="thq-heading-2">Ayush Mishra</h2>
             <span className="thq-body-small">
               Subscribe to our newsletter for the latest updates on new features
               and product releases.
@@ -135,14 +131,12 @@ Footer.defaultProps = {
   link5: 'LinkedIn',
   link8: 'Email',
   action1: 'Subscribe to Newsletter',
-  content3: 'Designed and Developed by Your Name',
+  content3: 'Designed and Developed by Ayush',
   link4: 'Contact',
-  logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
   cookiesLink: '/cookie-policy',
   content2: '© 2023 Your Name. All Rights Reserved.',
   link9: 'Resume',
   link6: 'GitHub',
-  logoAlt: 'Your Name Logo',
   link1: 'Home',
   privacyLink: '/privacy-policy',
   link10: 'Blog',
@@ -161,12 +155,10 @@ Footer.propTypes = {
   action1: PropTypes.string,
   content3: PropTypes.string,
   link4: PropTypes.string,
-  logoSrc: PropTypes.string,
   cookiesLink: PropTypes.string,
   content2: PropTypes.string,
   link9: PropTypes.string,
   link6: PropTypes.string,
-  logoAlt: PropTypes.string,
   link1: PropTypes.string,
   privacyLink: PropTypes.string,
   link10: PropTypes.string,

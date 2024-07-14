@@ -11,6 +11,7 @@ const Hero = (props) => {
       <div className="hero-column thq-section-padding thq-section-max-width">
         <div className="hero-content">
           <h1 className="hero-text thq-heading-1">{props.heading1}</h1>
+          <h1 className="hero-text thq-heading-1">{props.heading2}</h1>
           <p className="hero-text1 thq-body-large">{props.content1}</p>
         </div>
         <div className="hero-actions">
@@ -220,7 +221,8 @@ Hero.defaultProps = {
     'https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDk4MTU1N3w&ixlib=rb-4.0.3&q=80&w=1080',
   image10Alt: 'Hero Image',
   image4Alt: 'Hero Image',
-  heading1: 'Experienced PHP Drupal Developer',
+  heading1: 'Ayush Mishra',
+  heading2: 'Experienced PHP Drupal Developer',
   content1:
     'Building robust and scalable websites with PHP and Drupal to meet your business needs.',
   image10Src:
@@ -255,6 +257,7 @@ Hero.propTypes = {
   image10Alt: PropTypes.string,
   image4Alt: PropTypes.string,
   heading1: PropTypes.string,
+  heading2: PropTypes.string,
   content1: PropTypes.string,
   image10Src: PropTypes.string,
   image9Alt: PropTypes.string,
